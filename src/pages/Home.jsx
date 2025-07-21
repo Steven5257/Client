@@ -1,8 +1,12 @@
 import MenuBar from "../components/MenuBar.jsx";
+import Header from "../components/Header.jsx";
 
 const Home = () => {
     return (
-        <MenuBar />
+        <div className="flex flex-col items-center justify-content-center min-vw-100">
+            <MenuBar />
+            <Header />
+        </div>
     )
 }
 
